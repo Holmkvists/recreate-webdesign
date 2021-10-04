@@ -129,11 +129,15 @@ header {
             overflow: hidden;
             transition: all ease 0.25s;
 
-            a {
-                text-align: end;
-                text-decoration: none;
-                color: white;
-                font-size: 16pt;
+            li {
+                margin-bottom: 5px;
+
+                a {
+                    text-align: end;
+                    text-decoration: none;
+                    color: white;
+                    font-size: 16pt;
+                }
             }
         }
     }
@@ -161,7 +165,7 @@ main {
     }
 
     .text-container {
-        width: 80%;
+        width: 75%;
         height: 125px;
         display: flex;
         justify-content: center;
@@ -170,6 +174,10 @@ main {
         border-radius: 5px;
         margin-top: 15px;
         margin-bottom: 10px;
+
+        p {
+            width: 75%;
+        }
     }
 }
 
@@ -177,7 +185,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 500px;
+    height: 590px;
     background-color: black;
     color: white;
     font-size: 16pt;
@@ -194,11 +202,10 @@ footer {
             padding: 0;
 
             li {
-                margin-bottom: 10px;
+                margin-bottom: 20px;
 
                 i {
                     margin-right: 10px;
-                    gap: 25px;
                 }
             }
         }
@@ -219,6 +226,7 @@ footer {
 
         li {
             margin-right: 25px;
+            margin-bottom: 0;
         }
     }
 
